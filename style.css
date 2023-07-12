@@ -1,3 +1,36 @@
 p {
   color: red;
 }
+a:link {
+  color: green;
+  background-color: transparent;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+}
+/* umiem tez marginy, paddingi, floaty*/
+a:hover {
+  color: red;
+  background-color: transparent;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+}
+table,
+th,
+td {
+  border: 5px solid black;
+}
+.drugi {
+  background-color: aqua;
+  font-size: 20px;
+  text-align: center;
+  border-style: dotted;
+}
+#pierwszy {
+  background-color: bisque;
+  font-family: verdana;
+}
