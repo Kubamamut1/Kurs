@@ -1,0 +1,27 @@
+.kontener {
+  display: flex;
+  height: 150px;
+  width: 350px;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  background-color: green;
+}
+#jeden {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+#dwa {
+  height: 100px;
+  width: 100px;
+  background-color: pink;
+}
+#trzy {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+}
+p {
+  text-align: center;
+}
