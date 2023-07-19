@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  border: 0;
+}
+.kontener {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("tlo.jpg");
+  background-repeat: no-repeat;
+}
+.tekstmenu {
+  color: white;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.tekstmenu h2 {
+  margin: 0 50px 0 30px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: red;
+}
+
+.cialo {
+  color: white;
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hjeden {
+  font-weight: bold;
+}
+.hdwa {
+  font-weight: 80;
+}
+.cialo h1 {
+  font-size: 100px;
+  margin-left: 80px;
+}
+.cialo p {
+  font-size: 40px;
+  margin-left: 80px;
+  margin-top: 40px;
+}
+.przycisk {
+  margin-left: 80px;
+  margin-top: 60px;
+  border-radius: 4px;
+  background-color: orange;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px 30px;
+  cursor: pointer;
+  border-radius: 40px;
+}
