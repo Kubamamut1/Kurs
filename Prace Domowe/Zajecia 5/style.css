@@ -5,7 +5,7 @@
   border: 0;
 }
 .contener {
-  height: 200vh;
+  height: 500vh;
   width: 100vw;
   background-color: #111111;
 }
@@ -18,8 +18,9 @@
   width: 40px;
 }
 .music {
-  height: 400px;
-  width: 400px;
+  margin-right: 60px;
+  height: 300px;
+  width: 300px;
 }
 .header {
   width: 100vw;
@@ -33,12 +34,15 @@
 .mid a {
   margin: 30px;
 }
-h1 {
+.top h1 {
   font-size: 80px;
   font-weight: 700;
   background: -webkit-linear-gradient(10deg, #ff00cc, #333399);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.topLeft {
+  margin-left: 60px;
 }
 .top {
   color: white;
@@ -67,22 +71,97 @@ h1 {
   height: 50px;
   border-radius: 5px;
   margin-right: 20px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .bg1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 60vw;
   height: 70px;
-  background-color: #403b3b;
-  text-align: center;
   margin-top: 60px;
   border: 3px solid;
   border-radius: 5px;
-
-  /* border-color: -webkit-linear-gradient(10deg, #ff00cc, #333399);*/
+  border: 1px solid transparent;
+  background: linear-gradient(#403b3b, #403b3b) padding-box,
+    linear-gradient(10deg, #ff00cc, #333399) border-box;
 }
-.midalne {
+.midlane {
+  color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.midlane h2 {
+  margin-top: 40px;
+}
+.pa {
+  margin-top: 40px;
+  color: grey;
+}
+.pa1 {
+  margin-top: 40px;
+  color: grey;
+}
+.work {
+  width: 90px;
+  border-bottom: 1px solid transparent;
+  background: linear-gradient(#111111, #111111) padding-box,
+    linear-gradient(10deg, #ff00cc, #333399) border-box;
+}
+.list {
+  color: grey;
+}
+.bio h3,
+p {
+  display: inline;
+}
+.bioT {
+  width: 60px;
+  border-bottom: 1px solid transparent;
+  background: linear-gradient(#111111, #111111) padding-box,
+    linear-gradient(10deg, #ff00cc, #333399) border-box;
+}
+.Spec {
+  flex-direction: row;
+  display: flex;
+}
+.Spec h2 {
+  margin-left: 20px;
+  color: white;
+}
+.Spec p {
+  margin-left: 20px;
+  color: gray;
+}
+.ok {
+  height: 40px;
+  width: 40px;
+}
+.home {
+  height: 40px;
+  width: 40px;
+}
+.star {
+  height: 40px;
+  width: 40px;
+}
+.leftB {
+  border-radius: 5px;
+  width: 300px;
+  height: 200px;
+  background-color: #403b3b;
+}
+.midB {
+  border-radius: 5px;
+  width: 300px;
+  height: 200px;
+  background-color: #403b3b;
+}
+.rightB {
+  border-radius: 5px;
+  width: 300px;
+  height: 200px;
+  background-color: #403b3b;
 }
