@@ -5,7 +5,7 @@
   border: 0;
 }
 .contener {
-  height: 700vh;
+  height: 450vh;
   width: 100vw;
   background-color: #111111;
 }
@@ -252,10 +252,10 @@ p {
   padding: 50px;
 }
 .txt h1 {
-  margin-left: 220px;
+  margin-left: 30px;
 }
 .txt p {
-  margin-left: 440px;
+  margin-left: 450px;
 }
 .button2 {
   text-align: center;
@@ -267,4 +267,143 @@ p {
   height: 50px;
   margin-top: 50px;
   margin-left: 47vw;
+}
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.colorBoxB {
+  color: white;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  border-radius: 10px;
+  background-color: #1b1c1e;
+  height: 60vh;
+  width: 70vw;
+}
+.Arrow {
+  width: 25px;
+  height: 25px;
+}
+.phone {
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+}
+.email {
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+}
+.localisation {
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+}
+.paragraf {
+  margin-top: 10px;
+}
+.button3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  color: white;
+  background: -webkit-linear-gradient(10deg, #ff00cc, #333399);
+  border-radius: 30px;
+  width: 200px;
+  height: 50px;
+}
+
+.nameEmail {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 30px;
+  background-color: #111111;
+  border: solid grey 2px;
+  border-radius: 5px;
+  color: grey;
+}
+.MS {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 100px;
+  background-color: #111111;
+  border: solid grey 2px;
+  border-radius: 5px;
+  color: grey;
+}
+.contactB {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.location {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.meil {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.leftCB {
+  display: flex;
+  flex-direction: column;
+}
+.down {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 10vh;
+  color: white;
+}
+.leftD {
+  width: 45vw;
+  height: 10vw;
+  text-decoration: underline;
+  margin-left: 250px;
+  display: flex;
+  align-items: center;
+}
+.rightD {
+  height: 10vw;
+  width: 45vw;
+  margin-left: 330px;
+  display: flex;
+  align-items: center;
+}
+.line {
+  margin-left: 250px;
+  height: 50px;
+  width: 70vw;
+  border-bottom: solid grey 2px;
+}
+.footer {
+  margin-top: 50px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 3vh;
+}
+.leftF {
+  margin-left: 250px;
+}
+.rightF {
+  margin-right: 200px;
+  display: flex;
+  flex-direction: row;
+}
+.policy {
+  width: 110px;
+  border-right: solid 2px grey;
+  margin-right: 10px;
 }
